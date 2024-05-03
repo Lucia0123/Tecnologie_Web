@@ -1,0 +1,53 @@
+header, footer{
+    background-color: rgb(77, 205, 277);
+}
+
+body{
+    background-color: #edebeb;
+}
+
+.titolo{
+    font-family: "lucida handwriting";
+}
+
+.menu{
+    font-family: "helvetica";
+}
+
+.menu *:hover{
+    color: #00FF00;
+}
+
+main{
+    background-color: #faeded;
+}
+
+main article{
+    background-color: white;
+    border-style: solid;
+    border-color: #7d1e1e;
+}
+
+article img{
+    max-height: 200px;
+}
+
+.font_lucida_sans{
+    font-family: "Lucida Sans";
+}
+
+.font-verdana{
+    font-family: "verdana";
+}
+
+.larga50{
+    width: 50px;
+}
+
+.cambio_colore:hover{
+    color:	rgb(219, 69, 83);
+}
+
+main p{
+    font-size: 18px;
+}
