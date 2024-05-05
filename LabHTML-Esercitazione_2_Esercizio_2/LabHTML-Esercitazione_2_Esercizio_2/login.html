@@ -2,18 +2,54 @@
 <html lang="it">
 <head>
     <title>Blog TW - Login</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 class="titolo">Blog Tecnologie Web - Per la gestione del Territorio</h1>
-    </header>
-    <nav>
-        <ul class="menu">
-            <li><a href="home.html">Home</a></li><li><a href="archivio.html">Archivio</a></li><li><a href="contatti.html">Contatti</a></li><li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
+    <div class="grid-container">
+        <header class="grid-item" id="item0">
+            <h1 class="titolo">Blog Tecnologie Web - Per la gestione del Territorio</h1>
+        </header>
+        <nav class="grid-item" id="item1">
+            <ul>
+                <li><a id="grid-item1" href="home.html">Home</a></li><li><a id="grid-item2"
+                    href="archivio.html">Archivio</a></li><li><a id="grid-item3" href="contatti.html">Contatti</a>
+                    </li><li><a id="grid-item4" href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
-        
+        <div>
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <input type="submit" value="Invia">
+            </form>
+        </div>
+        <div>
+            <h2>Post popolari</h2>
+            <article>
+                <img src="img/html5-js-css3.png">
+                <h2>Introduzione alle tecnologie Web Client Side</h2>
+            </article>
+            <article>
+                <img src="img/JS.png">
+                <h2>Introduzione alla tecnologie Web Server Side</h2>
+            </article>
+            <aside>
+                <p>Categorie</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </aside>
+        </div>
     </main>
     <footer>
         <p>Tecnologie Web - A.A. 2023/2024</p>
